@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090611">
+<title>مفاجأة عيد ميلادك ❤️</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="matrix"></canvas><div class="grain"></div>
+<main>
+<section class="screen intro active" id="intro">
+  <div class="terminal"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="terminal-label">a little surprise.exe</span></div>
+  <p class="eyebrow">A SPECIAL MESSAGE FOR YOU</p>
+  <h1 class="glitch" data-text="SYSTEM ONLINE">SYSTEM ONLINE</h1>
+  <p class="sub">هناك شيء جميل ينتظرك...</p>
+  <div class="loading"><i></i></div>
+  <button class="main-btn" id="startBtn">اكشف المفاجأة <span>♥</span></button>
+  <small>اضغط وخلّي المفاجأة تبدأ</small>
+</section>
+<section class="screen reveal" id="reveal">
+  <p class="eyebrow">TODAY IS ALL ABOUT YOU</p>
+  <div class="birthday-word">HAPPY</div>
+  <h2 id="personName">ANITA</h2>
+  <p class="sub">اليوم مو يوم عادي... اليوم عيد ميلاد أغلى إنسانة ✨</p>
+  <button class="main-btn" id="celebrateBtn">يلا نحتفل 🎂</button>
+</section>
+<section class="screen cake-screen" id="cake">
+  <div class="stars"></div>
+  <div class="cake" aria-label="birthday cake"><div class="candles"><i></i><i></i><i></i></div><div class="layer top"></div><div class="layer middle"></div><div class="layer bottom"></div><div class="plate"></div></div>
+  <h2>أمنية حلوة... ونفخة من القلب 💗</h2>
+  <p>غمّضي عيونج وتمنّي أمنية</p>
+  <button class="main-btn" id="wishBtn">تمّنيت! ✨</button>
+</section>
+<section class="screen memories" id="memories">
+  <p class="eyebrow">A NOTE FROM MY HEART</p>
+  <article class="letter">
+    <span class="heart">♥</span>
+    <p id="message">كل عام وانتي أجمل صدفة وأحلى حكاية بحياتي. أتمنى أيامج كلها فرح، وضحكتج ما تغيب، وكل أمنياتج تصير حقيقة. وجودج وحده يخلي الأشياء أحلى. أحبج هواية ❤️</p>
+    <span class="sign">بكل الحب، <b id="senderName">Bilal</b></span>
+  </article>
+  <div class="photo-heading"><span>OUR LITTLE WORLD</span><h2>ذكريات تستاهل تبقى 💞</h2></div>
+  <div class="photo-heart" id="photoHeart">
+    <div class="photo p1"><img src="photos/photo1.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+    <div class="photo p2"><img src="photos/photo2.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+    <div class="photo p3"><img src="photos/photo3.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+    <div class="photo p4"><img src="photos/photo4.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+    <div class="photo p5"><img src="photos/photo5.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+    <div class="photo p6"><img src="photos/photo6.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+    <div class="photo p7"><img src="photos/photo7.jpg" alt="ذكرى جميلة"><span>♥</span></div>
+  </div>
+  <p class="end-line">كل عام وانتي بقلبي، واليوم وباچر وكل العمر ❤️</p>
+  <button class="main-btn" id="againBtn">عيد المفاجأة من جديد ↻</button>
+</section>
+</main>
+<div class="toast" id="toast">كل الأمنيات الحلوة إلج ❤️</div>
+<script src="script.js"></script>
+</body></html>
