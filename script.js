@@ -1,5 +1,5 @@
 // عدّل الاسم والرسالة واسم المرسل من ملف config في أعلى هذا الملف.
-const CONFIG={name:"ANITA",sender:"Bilal",message:"كل عام وانتي أجمل صدفة وأحلى حكاية بحياتي. أتمنى أيامج كلها فرح، وضحكتج ما تغيب، وكل أمنياتج تصير حقيقة. وجودج وحده يخلي الأشياء أحلى. أحبج هواية ❤️"};
+const CONFIG={name:"ANITA",sender:"Bilal",message:"كل عام وانتي أجمل صديقه وأحلى حلوه . أتمنى أيامج كلها فرح، وضحكتج ما تغيب، وكل أمنياتج تصير حقيقة. وجودج وحده يخلي الأشياء أحلى. أحبج هواية ❤️"};
 document.title=`عيد ميلاد سعيد ${CONFIG.name} ❤️`;
 document.getElementById('personName').textContent=CONFIG.name;
 document.getElementById('senderName').textContent=CONFIG.sender;
